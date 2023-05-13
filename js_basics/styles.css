@@ -1,0 +1,84 @@
+/* Set up global styles */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  text-align: center;
+}
+/* Style the navigation bar */
+nav {
+  background-color: #E6E6FA;
+  color: #808080;
+  padding: 20px;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.note-container {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.note-container form {
+  display: flex;
+}
+
+.note-container input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.add {
+  padding: 10px;
+  background-color: #E6E6FA;
+  color: #808080;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the unordered list */
+ul {
+  list-style-type: none;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 0;
+}
+
+ul li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-note {
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
